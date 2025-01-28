@@ -54,8 +54,6 @@ app.get("/web", async (req, res) => {
   }
 });
 
-const port = 3000;
 
-app.listen(port, () => {
-  console.log(`Running at port ${port}`);
-});
+
+export default app
